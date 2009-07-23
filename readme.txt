@@ -1,8 +1,9 @@
 
-adito is come from ssl-explorer, which is close two years ago.
-adito is belong to open vpn and rename to OpenVPN ALS
-I am more familiar with adito 0.9.1, that is why i build my VDA(Virtual Desktop and Application) base on this version.
-0.9.1 is a nice version and enough for me, even its web struct is too old to upgrade. I will change web frame to brand new web frame: flex + blaseDS. Then i will make it suitable for remote access to virtual desktop and application. 
+adito is come from ssl-explorer, which is closed two years ago.
+Now adito was renamed to OpenVPN ALS and became a branch of OpenVPN.
+
+I am more familiar with adito 0.9.1, that is why i build my VDA(Virtual Desktop and Application) base on it.
+0.9.1 is a nice version and enough for me, even its web frame(struts 1 and pre jsp 2.0) is too old to upgrade. I will change its web frame to brand new and cooler one: flex + blaseDS. Then i will make it suitable for remote access to virtual desktop and application. 
 God bless me i have enough time to do it. 
 
 2009.07
