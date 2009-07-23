@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service id="remoting-service" 
+    class="flex.messaging.services.RemotingService">
+
+    <adapters>
+        <adapter-definition id="java-object" class="flex.messaging.services.remoting.adapters.JavaAdapter" default="true"/>
+    </adapters>
+
+    <default-channels>
+        <channel ref="my-amf"/>
+    </default-channels>
+    
+    <destination id="helloworld">      
+      <properties>      
+          <source> flex.samples.helloWorld.HelloWorld </source >      
+      </properties> 
+           
+  	</destination>
+  	
+    <destination id="AppserversAction">      
+      <properties>      
+          <source> an.flex.applications.actions.AppserverDbAction </source >      
+      </properties> 
+  	</destination>
+
+    <destination id="ApplicationsAction">      
+      <properties>      
+          <source> an.flex.applications.actions.ApplicationsDbAction </source >      
+      </properties>     
+  	</destination>
+
+    <destination id="AdminLogAction">      
+      <properties>      
+          <source> an.flex.adminlog.AdminLogDbAction </source >      
+      </properties>     
+  	</destination>
+
+    <destination id="AuditAction">      
+      <properties>      
+          <source> an.flex.audit.AuditAction </source >      
+      </properties>     
+  	</destination>  	
+</service>
