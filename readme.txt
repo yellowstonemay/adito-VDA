@@ -1,5 +1,5 @@
 
-adito is come from ssl-explorer, which is closed two years ago.
+adito came from ssl-explorer, a famous open source VPN project, which was closed two years ago.
 Now adito was renamed to OpenVPN ALS and became a branch of OpenVPN.
 
 I am more familiar with adito 0.9.1, that is why i build my VDA(Virtual Desktop and Application) base on it.
