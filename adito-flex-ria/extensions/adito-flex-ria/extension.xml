@@ -1,0 +1,23 @@
+<bundle order="100" version="1.0.0" requiredHostVersion="0.9.0"
+	id="adito-flex-ria" name="adito-flex-ria"
+	license="GPL" productURL="http://localhost" >
+	<description>
+		This extension adds the 'Tunnels' feature to Adito.
+		Tunnels allow an administrator to create secure tunnels.
+	</description>
+	<extension type="plugin" extension="adito-flex-ria"
+		name="adito-flex-ria">
+		<description>
+			This extension adds the 'Tunnels' feature to Adito.
+			Tunnels allow an administrator to create secure tunnels.
+		</description>
+		<plugin name="adito-flex-ria"
+			class="com.adito.agent.util.AgentUtilPlugin">
+			<classpath>
+				private/adito-flex-ria.jar
+			</classpath>
+			<resources>webapp</resources>
+		</plugin>
+		<propertyDefinitions></propertyDefinitions>
+	</extension>
+</bundle>

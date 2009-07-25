@@ -1,0 +1,15 @@
+<!DOCTYPE tiles-definitions PUBLIC 
+	"-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN" 
+	"webapp/WEB-INF/tiles-config_1_1.dtd"> 
+
+<tiles-definitions>	
+	<definition name=".site.Tunnelscommand" extends=".site.Layout">
+		<put name="content" value="/WEB-INF/jsp/auth/usernameAuth.jspf"/>
+		<put name="resourcePrefix" value="usernameLogin"/>
+		<put name="menuItem" value=""/>
+		<put name="resourceBundle" value="security"/>
+		<put name="infoImage" value="login.gif"/>
+		<put name="pageStyle" value="centeredSpaced"/>
+	</definition>
+</tiles-definitions>
+
